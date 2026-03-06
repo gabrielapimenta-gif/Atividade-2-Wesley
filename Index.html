@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Wessley 2</title>
+    <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Prática 2 - Wesley</h1>
+        <p>Gabriela Pimenta - 2026<p></p>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h3>1. Cálculo de Idade</h3>
+            <input type="number" id="nasc" placeholder="Ano de Nascimento">
+            <input type="number" id="atual" placeholder="Ano Atual">
+            <button onclick="calcIdade()">Calcular</button>
+            <div id="res1" class="result"></div>
+        </div>
+
+        <div class="card">
+            <h3>2. Aumento Salarial (25%)</h3>
+            <input type="number" id="salario" placeholder="Salário Atual (R$)">
+            <button onclick="calcSalario()">Calcular Novo Salário</button>
+            <div id="res2" class="result"></div>
+        </div>
+
+        <div class="card">
+            <h3>3. Celsius para Fahrenheit</h3>
+            <input type="number" id="celsius" placeholder="Temp. em °C">
+            <button onclick="calcTemp()">Converter</button>
+            <div id="res3" class="result"></div>
+        </div>
+
+        <div class="card">
+            <h3>4. Média Aritmética</h3>
+            <input type="number" id="nota1" placeholder="Nota 1">
+            <input type="number" id="nota2" placeholder="Nota 2">
+            <input type="number" id="nota3" placeholder="Nota 3">
+            <button onclick="calcMedia()">Calcular Média</button>
+            <div id="res4" class="result"></div>
+        </div>
+
+        <div class="card">
+            <h3>5. Hipotenusa (Pitágoras)</h3>
+            
+            <input type="number" id="catB" placeholder="Cateto B">
+            <input type="number" id="catC" placeholder="Cateto C">
+            <button onclick="calcHipot()">Calcular Hipotenusa</button>
+            <div id="res5" class="result"></div>
+        </div>
+
+        <div class="card">
+            <h3>6. Cálculos da Esfera</h3>
+            
+            <input type="number" id="raio" placeholder="Valor do Raio (R)">
+            <button onclick="calcEsfera()">Calcular Tudo</button>
+            <div id="res6" class="result"></div>
+        </div>
+    </main>
+
+    <script src="assets/funcionalidade.js"></script>
+</body>
+</html>
