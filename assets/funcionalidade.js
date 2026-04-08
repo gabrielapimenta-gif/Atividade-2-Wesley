@@ -1,3 +1,11 @@
+function mostrar(id, mensagem) {
+    const elemento = document.getElementById(id);
+    if (elemento) {
+        elemento.innerHTML = mensagem;
+    } else {
+        console.error(`Erro: O elemento com ID '${id}' não foi encontrado no HTML.`);
+    }
+}
 
 // Idades
 function calcIdade() {
